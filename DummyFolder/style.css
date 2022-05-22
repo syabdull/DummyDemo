@@ -1,0 +1,51 @@
+header{
+     display:flex;
+     justify-content:space-between;
+      margin-left: 50px;
+      font-size:x-large;
+      font-weight: normal;
+      
+}
+ul{
+     font-weight:bold;
+     
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+   
+}
+ nav{
+     width:60vw;
+     margin-top: 20px;
+ }
+  .bigimage{
+      width:95vw;
+      margin-left:1rem;
+      margin-bottom:4rem;
+  }
+.container{
+    display:flex;
+     justify-content:space-evenly;
+}
+.container>div>p{
+    font-size:x-large;
+    line-height: 1.5rem;
+}
+.container div{
+    text-align:center;
+}
+container p{
+    width: 400px;
+}
+footer>p{
+    text-align:center;
+    background-color:black;
+    color:whitesmoke;
+    font-size:x-large;
+    
+}
+ li:hover{
+     color:blue;
+     cursor:pointer;
+      
+ }
